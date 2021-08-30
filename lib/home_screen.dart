@@ -57,7 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     child: Row(
                                       children: [
 
-                                        Text('2nd T20 : Sri-Lanka vs India in Pallekale',style: TextStyle(color: Colors.grey),),
+                                        Text('1st ODI : Pakistan vs South Africa in UAE',style: TextStyle(color: Colors.grey),),
                                         IconButton(
                                           onPressed: (){},
                                           icon: Icon(Icons.notifications_none,color: Colors.grey,),
@@ -67,20 +67,21 @@ class _HomeScreenState extends State<HomeScreen> {
 
                                   ),
                                   Padding(
-                                    padding: EdgeInsets.only(left: 15.0),
+                                    padding: EdgeInsets.only(left: 22.0),
                                     child:Row(
                                       children: [
                                         Container(
-                                          height: 36.0,
-                                          width: 36.0,
+                                          height: 29.0,
+                                          width: 29.0,
                                           decoration: BoxDecoration(
                                               image: DecorationImage(
-                                                  image: AssetImage('images/sl.png')
+                                                  image: AssetImage('images/ra.png'),
+
                                               )
                                           ),
                                         ),
                                         SizedBox(width: 25.0,),
-                                        Text('157-6 (20)',style: TextStyle(color: Colors.grey,fontSize: 15.0,fontWeight: FontWeight.bold),)
+                                        Text('302-8 (50)',style: TextStyle(color: Colors.grey,fontSize: 15.0,fontWeight: FontWeight.bold),)
                                       ],
                                     ),
                                   ),
@@ -94,12 +95,12 @@ class _HomeScreenState extends State<HomeScreen> {
                                           width: 36.0,
                                           decoration: BoxDecoration(
                                               image: DecorationImage(
-                                                  image: AssetImage('images/in.png')
+                                                  image: AssetImage('images/pk.png')
                                               )
                                           ),
                                         ),
                                         SizedBox(width: 25.0,),
-                                        Text('137-9 (20)',style: TextStyle(color: Colors.grey,fontSize: 15.0,fontWeight: FontWeight.bold),)
+                                        Text('174-5 (20)',style: TextStyle(color: Colors.grey,fontSize: 15.0,fontWeight: FontWeight.bold),)
                                       ],
                                     ),
                                   ),
@@ -108,7 +109,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     padding: EdgeInsets.only(left: 15.0),
                                     child:Row(
                                       children: [
-                                        Text('Sri-Lanka won by 20 runs',style: TextStyle(color: Colors.blue,fontSize: 13.0,fontWeight: FontWeight.bold),)
+                                        Text('Pakistan need 128 runs for win',style: TextStyle(color: Colors.red,fontSize: 13.0,fontWeight: FontWeight.bold),)
                                       ],
                                     ),
                                   ),
@@ -159,7 +160,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                          width: 300.0,
                                          decoration: BoxDecoration(
                                            image: DecorationImage(
-                                             image: AssetImage('images/image01.jpg'),
+                                             image: AssetImage('images/image02.jpg'),
                                              fit: BoxFit.cover
                                            )
                                          ),
